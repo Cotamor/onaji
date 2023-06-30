@@ -18,18 +18,18 @@ const Navbar = async () => {
             className: 'hidden md:flex',
           })}
         >
-          Text Sililarity 1.0
+          Onaji 1.0
         </Link>
 
         <div className="flex gap-4">
           <Link
             href="/"
             className={buttonVariants({
-              variant: 'ghost',
-              className: 'md:hidden',
+              variant: 'link',
+              className: 'md:hidden text-lg',
             })}
           >
-            Home
+            Onaji
           </Link>
           <ThemeToggle />
           <Link

@@ -40,7 +40,7 @@ export default function Home() {
               priority
               className='img-shadow'
               alt="typewriter"
-              src="/typewriter.png"
+              src="/antique-books.png"
               fill
               quality={100}
               style={{ objectFit: 'contain' }}
